@@ -1,0 +1,58 @@
+.carousel-content {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: 45%;
+  text-align: center;
+  z-index: 20;
+  color: white;
+  text-shadow: 0 2px 3px rgba(0,0,0,.6);
+  }
+
+
+
+h1 {font-size: 6em;}
+h2 {font-size: 5em;}
+
+
+
+@media screen and (max-width: 65em) {
+h1 {
+    font-size: 2.5em;
+  }
+h2 {
+    font-size: 2.3em;
+  }
+.carousel-content {
+    bottom:40%
+    }
+
+}
+
+
+@media screen and (max-width: 50em) {
+h1 {
+    font-size: 2em;
+  }
+h2 {
+    font-size: 1.8em;
+  }
+.carousel-content {
+    bottom:20%
+    }
+}
+
+@media screen and (max-width: 30em){
+h1 {
+    font-sitze: 1.5em;
+
+  }
+h2 {
+    font-size: 1.3em;
+  }
+.carousel-content {
+    bottom:15%
+    }
+}
